@@ -11,7 +11,7 @@ module tb_mux8to1();
     reg [2:0] sel;
     wire out;
 
-    // Instantiate the mux
+  
     mux8to1 uut (
         .in(in),
         .sel(sel),
